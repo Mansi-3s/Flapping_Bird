@@ -1,0 +1,17 @@
+
+
+flappybirdv0:
+ 
+ 
+  alpha: 0.001
+  gamma: 0.99
+
+  epsilon_init: 1.0
+  epsilon_min: 0.05
+  epsilon_decay: 0.995
+
+  replay_memory_size: 50000
+  mini_batch_size: 64
+
+  reward_threshold: 100
+  network_sync_rate: 1000
